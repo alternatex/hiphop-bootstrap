@@ -25,7 +25,7 @@ apt-get update
 # install required libraries
 sudo apt-get install git-core cmake g++ libboost-dev libmysqlclient-dev libxml2-dev libmcrypt-dev libicu-dev openssl build-essential binutils-dev libcap-dev libgd2-xpm-dev zlib1g-dev libtbb-dev libonig-dev libpcre3-dev autoconf libtool libcurl4-openssl-dev libboost-system-dev libboost-program-options-dev libboost-filesystem-dev wget memcached libreadline-dev libncurses-dev libmemcached-dev libbz2-dev libc-client2007e-dev php5-mcrypt php5-imagick libgoogle-perftools-dev libcloog-ppl0
 
-# get hiphip src / set paths
+# get hiphop src / set paths
 git clone git://github.com/facebook/hiphop-php.git
 cd hiphop-php
 export CMAKE_PREFIX_PATH=`/bin/pwd`/../
